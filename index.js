@@ -37,7 +37,7 @@ function showtask(){
         <th>${index + 1}</th>
         <td>${itme}</td>
         <td alig="center"><button type="button" onclick=edittask(${index})><img src="icons/edit_icon.png" alt=""></button></td>
-        <td><button type="button" onlclick="complete(${index})"><img src="icons/complete_icon.png" alt=""></button></td>
+        
         <td><button type = "button" onclick="deleteitem(${index})"><img src="icons/delete_icon.png" alt=""></button></td>
     </tr>`;
         
@@ -71,15 +71,7 @@ savebtn.addEventListener("click",function(){
     showtask();
 
 });
-function complete(index){
-    let webtask = localStorage.getItem("localtask");
-    let  taskObj = JSON.parse(webtask);
-    //taskObj[index]
-    document.write(taskObj[index].fontcolor( "blue" ));
-    localStorage.setItem("localtask", JSON.stringify(taskObj));
-    showtask();
 
-}
 function deleteitem(index){
     let webtask = localStorage.getItem("localtask");
     let  taskObj = JSON.parse(webtask);
