@@ -25,7 +25,7 @@
    align-self: center;
 }
 #input{
-    margin-left: 20px;
+    margin-left: 25px;
     width: 70%;
     height: 30px;
     /* align-self: center;
@@ -34,12 +34,12 @@
 }
 table{
     /* display: flex; */
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 5px;
-    padding: 10px;
+    /* padding: 10px; */
     width: 87%;
-    background-color: greenyellow;
-    border: green;
+    background-color:lightgrey;
+    border:lightgray;
 }
 td {
     text-align: center;
@@ -50,10 +50,15 @@ td {
     height: 35px;
     background-color: greenyellow;
     border-radius: 5px;
-    color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
     /* align-self: center;
     align-items: center; */
 
+}
+:hover button{
+    cursor: pointer;
 }
 img{
     width: 20px;
@@ -63,3 +68,26 @@ body{
     margin: none;
     padding: none;
 }
+@media only screen and (max-width:660px){
+    #h1{
+        margin-left: 13vw;
+        font-size: 30px;
+       align-self: center;
+    }
+    .button{
+    
+        width: 13%;
+        height: 35px;
+        background-color: greenyellow;
+        border-radius: 5px;
+        color: black;
+        font-size: 10px;
+        font-weight: medium;
+        /* align-self: center;
+        align-items: center; */
+    
+    }
+    
+
+}
+
