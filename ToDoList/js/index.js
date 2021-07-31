@@ -89,5 +89,5 @@ function deleteitem(index){
 
 }
 function inc(){
-    document.getElementById("section").style.height = "1000px";
+    document.getElementById("section").style.height = "250px";
 }
