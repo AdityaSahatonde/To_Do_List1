@@ -35,7 +35,7 @@ table{
 
 
     border-collapse: collapse;
-    border-spacing: 5px;
+    border-spacing: 0px;
     width: 87%;
     border: 1px solid #ddd;
      margin-left: 25px;
@@ -106,8 +106,7 @@ p{
         margin-left: 25px;
         
         width: 85%;
-        background-color:lightgrey;
-        border:lightgray;
+        border: 1px solid #ddd;
     }
     #input{
         display: inline-block;
@@ -161,8 +160,7 @@ p{
         margin-left: 25px;
           
         width: 85%;
-        background-color:lightgrey;
-        border:lightgray;
+        border: 1px solid #ddd;
     }
     #input{
         display: inline-block;
