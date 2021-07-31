@@ -33,7 +33,7 @@ function showtask(){
     let table = document.getElementById("table");
            
     taskObj.forEach((itme ,index) => {
-        ////<td><button type="button" onlclick="complete(${index})"><img src="icons/complete_icon.png" alt=""></button></td>
+       
         newString += ` <tr>
         <th>${index + 1}</th>
         <td>${itme}</td>
