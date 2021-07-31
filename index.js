@@ -36,9 +36,9 @@ function showtask(){
         newString += ` <tr>
         <th>${index + 1}</th>
         <td>${itme}</td>
-        <td alig="center"><button type="button" onclick=edittask(${index})><img src="icons/edit_icon.png" alt=""></button></td>
+        <td alig="center"><button type="button" onclick=edittask(${index})><img src="edit_icon.png" alt=""></button></td>
         
-        <td><button type = "button" onclick="deleteitem(${index})"><img src="icons/delete_icon.png" alt=""></button></td>
+        <td><button type = "button" onclick="deleteitem(${index})"><img src="delete_icon.png" alt=""></button></td>
     </tr>`;
         
     });
